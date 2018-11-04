@@ -1,0 +1,11 @@
+#+TITLE: fish-ranger-cd
+
+Automatically change the directory in fish after closing ranger.
+Ported from =examples/bash_automatic_cd.sh= in [[https://github.com/ranger/ranger][ranger official repo]].
+
+* Install
+With [[https://github.com/jorgebucaran/fisher][Fisher]]
+
+#+BEGIN_SRC sh
+  fisher add sei40kr/fish-ranger-cd
+#+END_SRC
