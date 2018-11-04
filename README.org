@@ -10,7 +10,7 @@ With [[https://github.com/jorgebucaran/fisher][Fisher]]
   fisher add sei40kr/fish-ranger-cd
 #+END_SRC
 
-This binds ~C-o~ to ranger-cd:
+This binds ~C-o~ to =ranger-cd=:
 
 #+BEGIN_SRC fish
 bind \co 'commandline ranger-cd; commandline -f execute'
