@@ -6,6 +6,12 @@ Ported from =examples/bash_automatic_cd.sh= in [[https://github.com/ranger/range
 * Install
 With [[https://github.com/jorgebucaran/fisher][Fisher]]
 
-#+BEGIN_SRC sh
+#+BEGIN_SRC fish
   fisher add sei40kr/fish-ranger-cd
+#+END_SRC
+
+This binds ~C-o~ to ranger-cd:
+
+#+BEGIN_SRC fish
+bind \co 'commandline ranger-cd; commandline -f execute'
 #+END_SRC
